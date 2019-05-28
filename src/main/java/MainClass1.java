@@ -15,6 +15,14 @@ public class MainClass1 {
             e.printStackTrace();
         }
 
+        Throwable throwable = new Throwable();
+        Error error = new Error();
+        Exception exception = new Exception();
+
+        Throwable errorS = new Error();
+        Throwable exceptionS = new Exception();
+
+        RuntimeException runtimeException = new RuntimeException();
 
     }
 }
