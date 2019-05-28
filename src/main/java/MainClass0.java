@@ -28,5 +28,10 @@ public class MainClass0 {
         catch ( StringIndexOutOfBoundsException | NullPointerException e) {
             System.out.println("Oops - You got string problems buddy!");
         }
+        finally {
+            System.out.println("Good bye");
+        }
+
+
     }
 }
